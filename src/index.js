@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import './style.css'
 import Icon from './myholiday_logo.svg';
+import data from './data.json'
 
 function component() {
 	const element = document.createElement('div');
@@ -20,3 +21,4 @@ function component() {
       }
       
       document.body.appendChild(component());
+      console.log(data)
